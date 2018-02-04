@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+
+/* Responsive images */
+
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: auto;
+  max-width: 1000px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+/* header css starts here*/
+#main-header {
+  background-image: url("../images/blog_header_bg.jpg");
+  background-size: cover;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+#navbar a {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #7B98AA;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline;
+  margin: 20px;
+  padding: 20px;
+  letter-spacing: 5px;
+}
+
+#main {
+  font-family: "Raleway", sans-serif;
+  float: left;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+  font-style: normal;
+  color: #44545E;
+  font-weight: 600px;
+  font-size: 18px;
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 15px;
+}
+/*sidebar*/
+#sidebar {
+  float: right;
+  width: 30%;
+	padding: 10px;
+  box-sizing: border-box;
+  font-family: "Raleway";
+  font-weight: 400px;
+  font-size: 15px;
+  color: #7B98AA;
+  width: 30%;
+}
+
+/* footer*/
+
+#main-footer {
+  background-color: #CDF3F6;
+  /* light blue */
+  padding: 20px;
+  margin-top: 40px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-weight: 600px;
+  font-size: 15px;
+  letter-spacing: 5px;
+  text-decoration: none
+}
+
+@media (max-width:600px){
+	#main{
+		width: 100%;
+		float: none;
+	}
+	#sidebar{
+		width: 100%;
+		float: none;
+	}
+}
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#navbar a:hover {
+  color: #CDF3F6;
+  /* light blue */
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+}
+
+/*Typography*/
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 37px;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  color: #44545E;
+  /* Dark Grey Text */
+  text-transform: uppercase;
+  font-weight: 600px;
+  font-size: 23px;
+}
+
+.social-links a {
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  color: #44545E;
+}
+
+.copyright {
+  border-top: 2px solid #44545E;
+  padding: 15px 0 3px;
+}

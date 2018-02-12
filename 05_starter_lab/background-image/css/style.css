@@ -1,0 +1,17 @@
+h1, h2 {
+	font-weight: normal;
+	letter-spacing: .05em;
+	-webkit-font-smoothing: antialiased;
+}
+
+header {
+	font-family: sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	padding: 30px;
+	min-height: 400px;
+	background-color: #F15B31;
+
+
+}
